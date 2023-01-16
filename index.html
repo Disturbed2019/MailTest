@@ -6,19 +6,17 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"/>
 
   <title>mail</title>
   <style type="text/css">
       /*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');*/
-      *{
-          /*margin: 0;*/
-          /*padding: 0;*/
+      * {
           box-sizing: border-box;
-          /*font-family: 'Roboto', sans-serif;*/
       }
+
       table {
           border-spacing: 0;
           mso-cellspacing: 0;
@@ -42,8 +40,70 @@
           padding: 16px;
       }
 
+      ul {
+          list-style: none;
+          font-size: 20px;
+          font-weight: 400;
+          color: #249ae1;
+          padding: 0 80px;
+      }
 
+      p {
+          font-weight: 400;
+          line-height: 26px;
+          font-size: 22px;
+          margin: 0;
+          color: #DD0330;
+      }
 
+      .title {
+          font-size: 46px;
+          max-width: 400px;
+          color: #DD0330;
+          font-weight: 300;
+      }
+
+      .btn-hero {
+          margin-bottom: 130px;
+          background-color: #77B973;
+      }
+
+      @media screen and (max-width: 600px) {
+          .title {
+              font-size: 36px;
+              max-width: 300px;
+          }
+
+          p {
+              font-size: 18px;
+          }
+          ul{
+              font-size: 18px;
+              padding: 0 60px;
+          }
+          .logo{
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+          }
+      }
+
+      @media screen and (max-width: 400px) {
+          .title {
+              font-size: 24px;
+              max-width: 200px;
+          }
+
+          .btn-hero {
+              max-width: 200px;
+              margin-bottom: 60px;
+          }
+          ul{
+              padding: 0 40px;
+              font-size: 16px;
+          }
+
+      }
 
 
   </style>
@@ -58,35 +118,37 @@
     <table align="center" border="0" cellspacing="0" cellpadding="0"
            style="color:#1C1E23;
            font-family: 'Roboto',sans-serif, Arial, Helvetica;
-           background-color: #fafdfe;Margin:0;padding:0;width: 100%;max-width: 700px;"
+           background-color: #fafdfe; Margin:0; padding:0; width: 100%; max-width: 700px;"
     >
       <tr>
         <td>
           <table border="0" cellspacing="0" cellpadding="0"
-            style="padding: 25px 25px 0 25px;
-            width: 100%;
-            max-width: 700px;
-            background-image: url('https://raw.githubusercontent.com/Disturbed2019/MailTest/main/images/main.png');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;"
+                 style="padding: 25px 25px 0 25px;
+                        width: 100%;
+                        max-width: 700px;
+                        background-image: url('https://raw.githubusercontent.com/Disturbed2019/MailTest/main/images/main.png');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;"
           >
             <tr>
               <td>
                 <a href="#">
-                  <img src="https://raw.githubusercontent.com/Disturbed2019/MailTest/main/images/warstwa.png" alt="logo" width="389" height="92">
+                  <img class="logo" src="https://raw.githubusercontent.com/Disturbed2019/MailTest/main/images/warstwa.png" alt="logo" width="389" height="92" />
                 </a>
               </td>
             </tr>
             <tr>
               <td>
-                <p style="font-size: 46px; color: #DD0330; font-weight: 300; max-width: 400px">Lorem ipsum dolor sit amet, consect adipisicing elit.</p>
+                <h1 class="title">Lorem ipsum dolor sit amet, consect adipisicing elit.</h1>
               </td>
             </tr>
             <tr>
               <td>
-                <a href="#" target="_blank"
-                   style="margin-bottom: 130px;background-color: #77B973;"
+                <a class="btn-hero"
+
+                   href="#" target="_blank"
+
                 >CZYTAJ WIĘCEJ</a>
               </td>
             </tr>
@@ -95,51 +157,62 @@
       </tr>
       <tr>
         <td style="padding: 0 25px 25px 25px; background-color: #8DCDF0; ">
-          <table border="0" cellspacing="0" cellpadding="0" style="background-color: #ffffff; width: 100%; max-width: 700px; height: 442px; border-radius: 5px; ">
+          <table border="0" cellspacing="0" cellpadding="0"
+                 style="background-color: #ffffff; width: 100%; max-width: 700px; height: 442px; border-radius: 5px; ">
             <tr>
               <td style="padding: 35px  48px 0">
-                <p style="font-weight: 400;line-height: 26px; font-size: 22px; margin: 0; color: #DD0330">Mauris fringilla lectus sit amet euismod posuere.</p>
-                <p style="font-weight: 400;line-height: 26px; font-size: 22px; margin: 0; color: #DD0330">Cras ligula mi, tincidunt vitae purus nec, ornare:</p>
+                <p>Mauris
+                  fringilla lectus sit amet euismod posuere.</p>
+                <p>Cras ligula
+                  mi, tincidunt vitae purus nec, ornare:</p>
               </td>
             </tr>
             <tr>
-              <td style="padding: 0 80px">
-                <ul style="list-style: none; font-size: 20px; font-weight: 400; color: #249ae1; padding: 0;">
+              <td style="">
+                <ul>
                   <li style="display: flex; align-items: center; margin-bottom: 16px;">
                     <span style="margin-right: 20px;">
-                      <img src="https://raw.githubusercontent.com/Disturbed2019/MailTest/main/images/icon-check.png" alt="icon" width="21" height="21">
+                      <img src="https://raw.githubusercontent.com/Disturbed2019/MailTest/main/images/icon-check.png"
+                           alt="icon" width="21" height="21">
                     </span>
-                    Curabitur sit amet egestas dui</li>
+                    Curabitur sit amet egestas dui
+                  </li>
                   <li style="display: flex; align-items: center; margin-bottom: 16px;">
                     <span style="margin-right: 20px;">
-                      <img src="https://raw.githubusercontent.com/Disturbed2019/MailTest/main/images/icon-check.png" alt="icon" width="21" height="21">
+                      <img src="https://raw.githubusercontent.com/Disturbed2019/MailTest/main/images/icon-check.png"
+                           alt="icon" width="21" height="21">
                     </span>
-                    Pellentesque habitant</li>
+                    Pellentesque habitant
+                  </li>
                   <li style="display: flex; align-items: center; margin-bottom: 16px">
                     <span style="margin-right: 20px;">
-                      <img src="https://raw.githubusercontent.com/Disturbed2019/MailTest/main/images/icon-check.png" alt="icon" width="21" height="21">
+                      <img src="https://raw.githubusercontent.com/Disturbed2019/MailTest/main/images/icon-check.png"
+                           alt="icon" width="21" height="21">
                     </span>
-                    Vestibulum varius fringilla eros</li>
+                    Vestibulum varius fringilla eros
+                  </li>
                   <li style="display: flex; align-items: center; margin-bottom: 16px">
                     <span style="margin-right: 20px;">
-                      <img src="https://raw.githubusercontent.com/Disturbed2019/MailTest/main/images/icon-check.png" alt="icon" width="21" height="21">
+                      <img src="https://raw.githubusercontent.com/Disturbed2019/MailTest/main/images/icon-check.png"
+                           alt="icon" width="21" height="21">
                     </span>
-                    Vivamus dignissim dui in convallis pulvinar</li>
+                    Vivamus dignissim dui in convallis pulvinar
+                  </li>
                 </ul>
               </td>
             </tr>
             <tr>
-              <td >
+              <td>
                 <a href="#" target="_blank"
                    style="
                    background-color: #77B973;
-                   margin: 0 auto;"
+                   margin: 0 auto 50px;"
                 >SPRAWDŹ</a>
               </td>
             </tr>
             <tr>
               <td>
-                <p style="text-align: right; padding: 0 25px;">Nr:ABC123DEF456</p>
+                <p style="text-align: right; padding: 0 25px; color:#333333; font-size: 14px;">Nr:ABC123DEF456</p>
               </td>
             </tr>
           </table>
